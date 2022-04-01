@@ -1,0 +1,63 @@
+:root {
+    --orange: #FFA500;
+    --blue-first:#183444;
+    --white:#FFFFFF;
+    --blue-second : #224957;
+    --blue-third:#BFDCF1;
+  }
+
+input:focus{
+    outline: none;
+}
+
+.orange{
+    color: #FFA500;
+}
+
+.white{
+    color : #FFFFFF;
+}
+
+.blue{
+    color: #183444;
+}
+
+.red{
+    color:rgb(248, 115, 115);
+}
+
+.text-color{
+    color:#a8c7ea;
+}
+
+.title-large{
+    font-size: 64px;
+}
+
+.title-medium{
+    font-size: 32px;
+}
+
+.title-var{
+    font-size: 22px;
+}
+
+.title-small{
+    font-size : 24px;
+}
+
+.padding-top-1vh{
+    padding-top: 1vh;
+}
+
+.margin-top-1vh{
+    margin-top: 1vh;
+}
+
+.margin-top-2vh{
+    margin-top:2vh;
+}
+
+.margin-top-1px{
+    margin-top: 1px;
+}

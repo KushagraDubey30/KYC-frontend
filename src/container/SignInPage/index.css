@@ -1,0 +1,86 @@
+.wrapper-tab-one{
+    background-color: #183444;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20vh;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container, .select-container{
+    height: 5vh;
+    width: 18vw;
+    border-radius: 8px;
+    background-color: var(--blue-second);
+    border: 1px solid var(--blue-second);
+    margin: 1vh;
+    color: var(--white);
+    padding-left: 1vw;
+}
+
+.input-container::placeholder{
+    color: grey;    
+}
+
+.checkbox-container{
+    margin-right: auto;
+    width: 100%;
+    padding:1vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.text-button{
+    color: var(--orange);
+    background-color: var(--blue-first);
+    border:0px none;
+}
+
+.button-one{
+    height: 5vh;
+    width:18vw;
+    background-color: var(--orange);
+    border-radius: 8px;
+    border : 0px none;
+    color:var(--blue-first)
+}
+
+.password-container{
+    display: flex;
+}
+
+.input-password-container{
+    height:5vh;
+    width: 15vw;
+    background-color: var(--blue-second);
+    border:0px none;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    color: var(--white);
+    padding-left: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+
+.icon-container{
+    display: flex;
+    background-color: var(--blue-second);
+    height: 5vh;
+    width: 3vw;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top:1vh;
+    margin-bottom: 1vh;
+}
